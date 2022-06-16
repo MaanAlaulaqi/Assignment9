@@ -1,3 +1,4 @@
+
 function palindrome(str) {
 
     var len = str.length
@@ -6,7 +7,7 @@ function palindrome(str) {
     //console.log(mid)
     for ( var i = 0; i < mid; i++ ) {
         //console.log(str[i] + " " + str[len - 1 - i]) //Sub-unit testing? :p
-        if (str[i] != str[len - 1 - i]) { 
+        if (str[i].toLowerCase() != str[len - 1 - i].toLowerCase()) { 
             
             
             return false            
@@ -17,6 +18,6 @@ function palindrome(str) {
 }
 module.exports = palindrome
 
-console.log(palindrome("rac123321car"))
+//console.log(palindrome("rac123321car"))
 
 

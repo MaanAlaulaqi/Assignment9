@@ -1,9 +1,10 @@
 {
   "name": "Assignment9",
   "version": "1.0.0",
-  "main": "palindrome.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
